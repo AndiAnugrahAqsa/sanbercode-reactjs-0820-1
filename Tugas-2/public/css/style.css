@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-image: url(../img/pattern.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+span {
+    font-weight: bold;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav a {
+    color: blue;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+hr {}
+
+button {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    vertical-align: bottom;
+}
+
+header {
+    display: inline-block;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+section {
+    width: 65%;
+    background-color: white;
+    padding: 10px;
+    margin: 65px auto 10px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+
+.contact-container {
+    width: 60%;
+    margin: 65 auto;
+    border: solid gray 0.5px;
+}
+
+.space-form {
+    height: 35;
+}
+
+.space-form-textarea {
+    height: 95;
+}
+
+.about-container {
+    width: 45%;
+    border: solid gray 0.5px;
+}
