@@ -58,5 +58,6 @@ console.log("\n\nSoal 5\n");
 
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
 var sortDaftarBuah = daftarBuah.sort()
-var daftarBuahString = sortDaftarBuah.join("\n");
-console.log(daftarBuahString);
+for (var i = 0; i < sortDaftarBuah.length; i++) {
+    console.log(sortDaftarBuah[i]);
+}
