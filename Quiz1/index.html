@@ -1,0 +1,97 @@
+<html>
+<header>
+    <title>Form Pembelian Buah</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+        }
+        
+        tr {
+            vertical-align: bottom;
+        }
+        
+        span {
+            font-weight: bold;
+        }
+        
+        button {
+            border-radius: 15px;
+            height: 25px;
+            background-color: white;
+        }
+        
+        .container {
+            width: 525px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        
+        .isi-form {
+            margin: 20px;
+        }
+        
+        .label-form {
+            width: 150px;
+        }
+        
+        .isi-checkbox {
+            height: 35px;
+        }
+    </style>
+</header>
+
+<body>
+    <div class="container">
+        <h1>Form Pembelian Buah</h1>
+        <div class="isi-form">
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label><span>Nama Pelanggan</span></label>
+                        </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td class="label-form" rowspan="5">
+                            <label><span>Daftar Item</span></label>
+                        </td>
+                        <td class="isi-checkbox">
+                            <input type=checkbox>
+                            <label>Semangka</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type=checkbox>
+                            <label>Jeruk</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type=checkbox>
+                            <label>Nanas</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type=checkbox>
+                            <label>Salak</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type=checkbox>
+                            <label>Anggur</label></td>
+                    </tr>
+                </table>
+
+
+            </form>
+            <button>Kirim</button>
+        </div>
+    </div>
+</body>
+
+</html>
